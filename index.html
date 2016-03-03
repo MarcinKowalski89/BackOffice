@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BackOffice</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+	<link rel="stylesheet" href="bower_components/milligram/dist/milligram.min.css">
+	<style>
+		.container {
+			top: 4vw;
+		}
+		fieldset {
+			width: 600px;
+			margin: 0 auto;
+		}
+		.button-primary {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<section class="container" id="forms">
+		<div class="example">
+			<form action="">
+				<fieldset>
+					<label for="login">Login</label>
+					<input type="text" id="login">
+					<label for="pass">Password</label>
+					<input type="password" id="pass">
+					<input type="submit" value="Send" class="button-primary">
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+</body>
+</html>
